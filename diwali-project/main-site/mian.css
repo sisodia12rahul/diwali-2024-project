@@ -1,0 +1,305 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100vw;
+    background-image: url(../Assets/bg-main.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+
+
+/* header starts here  */
+
+
+
+header{
+    display: flex;
+    height: 3.2rem;
+    width: 100%;
+    background-color:#3b1846;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.logo{
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+.header-text{
+   color: #ffd000;
+   font-size: 1.5rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* head video starts here  */
+
+.head-video-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.5rem  3rem rgb(0, 0, 0);
+}
+
+.head-video{
+    width: 100%;
+}
+
+.head-image{
+    position: absolute;
+    width: 40vw;
+    transform: translate(0.5rem, 1.5rem);
+    
+}
+
+
+
+
+
+/* content section starts here  */
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+}
+
+
+/* ganesh lakshmi section  */
+
+.ganesh-lakshmi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+    gap: 2rem;
+    
+}
+
+.ganesh-lakshmi-img{
+    width:18rem;
+}
+
+.name-wishes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:20rem ;
+    color: white;
+    font-family: cursive;
+    letter-spacing: 1px;
+    
+    
+    
+}
+
+.english-text-png{
+    width: 17rem;
+    margin: 0
+}
+
+.name{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #ffd000;
+    font-weight: 700;
+    font-size:2rem;
+    margin: 0;
+    font-family: "Sankofa Display",cursive, sans-serif;
+    letter-spacing:2px;
+    text-transform: capitalize;
+}
+
+.golden-line-top{
+    width: 20rem;
+    padding-left: 1.1rem;
+    margin-bottom: 1rem;
+}
+.golden-line-bottom{
+    width: 20rem;
+    transform: rotate(180deg);
+    margin-top: 1rem;
+}
+
+.wishes{
+    font-family: "Playwrite AU QLD", cursive;
+    text-align: center;
+
+}
+
+
+
+/* sweets section starts here  */
+
+
+.sweets{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* gallary section starts here  */
+
+.diwali-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.image-container{
+    width: 23rem;
+    height: 13rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.diwali-img{
+    width: 100%;
+    
+}
+
+
+
+
+/* thank you section  */
+
+.thankyou-container{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.thank-you-bg{
+    width: 22rem;
+}
+
+.thank-you{
+    width:12rem ;
+    position: absolute;
+}
+
+
+
+
+
+
+/* lets celebrate */
+
+.btn-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#btn{
+    width: fit-content;
+    border: none;
+    background-color: #220135;
+    font-family: cursive;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+
+/* footer section starts here  */
+
+footer{
+width: 100%;
+border-top: 3px solid #ffd000;
+
+}
+
+.footer-video{
+    width: 100%;
+}
+
+
+.footer-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    transform: translate(0, -8.5rem);
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.link{
+    color: #ffd000;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.mail{
+    font-size: 3.3rem;
+}
+
+hr{
+    width: 10rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.source{
+    display: flex;
+    align-items: center;
+    width: 23rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.source-code{
+    color: blueviolet;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.made-by{
+    color: white;
+    margin: 0;
+    font-family: "Playwrite AU QLD", cursive;
+}
